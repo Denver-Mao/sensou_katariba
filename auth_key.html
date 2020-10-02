@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>戦争語り場 | パスワード再発行</title>
+    <title>戦争語り場 | 認証キー入力</title>
 </head>
 <header>
     <h1>戦争語り場</h1>
@@ -14,21 +14,20 @@
     </div>
 </header>
 <body>
-    <div class="process">TOP > ログイン > パスワード再発行</div>
+    <div class="process">TOP > ログイン > パスワード再発行 >認証キー入力</div>
         <main>
             <form action="" method="post" class="register">
                 <div class="register__form-container">
-                    <label for="register-email" class="register__label">Email</label>
-                    <div class="instruction">ご登録いただいた時のメールアドレスを入力して
-                        ください。<br/>パスワード再発行に必要な認証キーを送ります。</div>
-                    <input type="text" class="register__input" id="register-email" name="email"> 
+                    <label for="register-auth-key" class="register__label">認証キー入力</label>
+                    <div class="instruction">認証キーを入力してください。<br/>仮パスワードを発行します。</div>
+                    <input type="text" class="register__input" id="register-auth-key" name="auth_key"> 
                     <div class="err">入力してください</div>
                 </div>
                 <div class="btn">
                     <input class="btn__submit--m" type="submit" value="送信">
                 </div>
             </form> 
-         </main>
+        </main>
 </body>
 <footer>
     <p>&copy; zazacat Allrights Reserved.</p>>

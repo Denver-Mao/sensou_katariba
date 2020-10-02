@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>戦争語り場 ｜ TOP </title>
+    <title>戦争語り場 ｜　退会 </title>
 </head>
 <header>
     <h1>戦争語り場</h1>
@@ -14,25 +14,22 @@
     </div>
 </header>
 <body>
-    <div class="process">TOP > ログイン</div>
+    <div class="process">マイページ > 退会</div>
     <div class="body__wrapper">
         <main>
-            <div class="result">全 <span>30</span>件中<span>30</span>件表示</div>
-            <div class="artitcle-list">
-                <div class="icons">
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-heart"></i><span>14</span>
-                    <i class="far fa-comment-dots"></i><span>14</span>
+            <!-- <div class="result">全 <span>30</span>件中<span>30</span>件表示</div> -->
+            <form action="" method="post" class="comment">
+                <div class="comment__form-container">
+                    <label for="input-comment" class="comment__label">退会理由</label>
+                    <div class="instruction">退会理由があればお書きください。（2000字以内）</div>
+                    <textarea type="" class="comment__input" id="input-comment"  rows="4" cols="40"> 
+                    <div class="chars"><span class="chars__result">0</span>/2000</div>
+                    <div class="err">入力してください</div>
                 </div>
-                <div class="article-list__item">
-                    <div class="tag">戦地／北京</div>
-                    <img class="article-list__pic" src="" alt="">
-                    <div class="article-list__sum">
-                        <div class="article-list__title"></div>
-                        <p class="article-list__content"></p>
-                    </div>
+                <div class="btn">
+                    <input class="btn__submit--m" type="submit" value="退会する">
                 </div>
-            </div>
+            </form> 
         </main>
         <div class="side">
             <form action="" method="post" class="side__form">
@@ -102,10 +99,14 @@
         <nav>
             <div class="nav__profile">
                 <img class="nav__photo" src="">
-                <p class="nav__caption">ゲストさん</p>
+                <p class="nav__caption">マオさん</p>
             </div>
             <ul class="nav__list">
-                <li class="nav_item"> ログイン</li>
+                <li class="nav_item">マイページ</li>
+                <li class="nav_item">ブロックリスト</li>
+                <li class="nav_item">ログアウト</li>
+                <li class="nav_item">パスワード変更</li>
+                <li class="nav_item">退会</li>
             </ul>
         </nav>
     </div>
